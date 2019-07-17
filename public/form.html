@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task App</title>
+</head>
+<body>
+    <div>
+        Generate PDF document for a user by filling out the field below:
+        <hr/>
+        <form action="/generate_pdf" method="POST">
+            <input type="text" placeholder="First name" name="first_name" required/>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+</body>
+</html>
